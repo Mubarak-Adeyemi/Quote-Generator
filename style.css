@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: center center / cover no-repeat  url(./images/qrBg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive; ;
+}
+
+.quoteHeading {
+    background-color: #262626;
+    color: #dbdbdb;
+    padding: 5px;
+    width: 400px;
+    margin: 0 auto 10px ; 
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.quoteMain {
+    background-color: #dbd4ca;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #262626;
+    color: #344c58;
+}
+.quoteMain .quote {
+    font-size: 1.5rem;
+}
+.quoteMain .person {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #ff6347;
+    margin-top: 20px;
+}
+
+.btnContainer .btn {
+    background-color: #262626;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #dbd4ca;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.btnContainer .btn:active {
+    background-color: #344c58;
+    border: none;
+}
+
+@media (max-width: 425px){
+    body {
+        height: 100vh;
+        background-position: center center/cover ;
+    }
+    .quoteHeading {
+    width: 300px;
+
+    }
+}
